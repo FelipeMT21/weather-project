@@ -4,6 +4,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
+    min-width: 100vh;
 }
 
 h1 {
@@ -104,6 +105,9 @@ span {
 
 #searchContainer {
     display: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0.5rem;
 }
 
 #searchInput {
@@ -113,7 +117,9 @@ span {
 
 #submitSearch {
     background-color: transparent;
-    border: 2px solid cornflowerblue;
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin-bottom: 0;
 }
 
 #submitSearch:hover {
@@ -291,5 +297,9 @@ span {
         width: 100%;
         padding: 20px 0px 25px;
         height: 1rem;
+    }
+
+    #searchContainer {
+        column-gap: 2rem;
     }
 }
