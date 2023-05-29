@@ -102,8 +102,11 @@ span {
     background-color: #cccccc;
 }
 
-#searchContainer {
+.hidden {
     display: none;
+}
+
+#searchContainer {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 0.5rem;

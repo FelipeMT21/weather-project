@@ -1,3 +1,3 @@
 $("#searchButton").click(function() {
-    $("#searchContainer").slideToggle();
+    $(".hidden").slideToggle();
 })

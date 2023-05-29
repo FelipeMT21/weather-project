@@ -20,10 +20,12 @@
                 <%= query %>
             </h2>
             <div id="search-result-container">
-                <div id="searchContainer">
-                    <form action="/result" method="post">
-                        <input type="text" id="searchInput-result" placeholder="City Name" name="cityName">
-                    </form>
+                <div class="hidden">
+                    <div id="searchContainer">
+                        <form action="/result" method="post">
+                            <input type="text" id="searchInput-result" placeholder="City Name" name="cityName">
+                        </form>
+                    </div>
                 </div>
                 <button id="searchButton">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
