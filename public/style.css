@@ -4,7 +4,6 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    min-width: 100vh;
 }
 
 h1 {
