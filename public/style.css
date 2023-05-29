@@ -220,6 +220,11 @@ span {
 }
 
 @media (max-width: 766px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     h1 {
         padding: 50px;
         font-size: 2rem;
@@ -234,7 +239,10 @@ span {
     }
     
     #container {
-        margin-top: 100px;
+        align-items: center;
+        width: calc(100vw - 2rem);
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     #top-result {
@@ -293,7 +301,7 @@ span {
     footer{
         position: fixed;
         bottom: 0;
-        width: 100%;
+        /* width: 100%; */
         padding: 20px 0px 25px;
         height: 1rem;
     }
