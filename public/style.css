@@ -190,6 +190,9 @@ span {
 
 .weather-result{
     width: 10rem;
+    background-color: #e4e2e2;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 766px){
