@@ -266,6 +266,10 @@ span {
         margin-bottom: 0.7rem;
         font-size: 1.5rem;
     }
+
+    #search-result-container {
+        flex-direction: row-reverse;
+    }
     
     #middle-result {
         margin-top: 1rem;
