@@ -192,75 +192,6 @@ span {
     width: 10rem;
     background-color: #e4e2e2;
     border-radius: 50%;
-    margin-bottom: 1rem;
-}
-
-@media (max-width: 766px){
-    h1 {
-        padding: 50px;
-        font-size: 2rem;
-    }
-    
-    input {
-        width: 100%;
-    }
-    
-    button {
-        width: 100%;
-    }
-    
-    .container-result{
-        width: 90%;
-        height: auto;
-    }
-    
-    #top-result{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 1rem;
-        width: 100%;
-    }
-    
-    .top-h2-result {
-        margin-left: 0;
-        margin-bottom: 0.5rem;
-        font-size: 1.5rem;
-    }
-    
-    #middle-result {
-        margin-top: 1rem;
-    }
-    
-    .degree-result {
-        font-size: 2rem;
-    }
-    
-    #bottom-result {
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 1rem;
-    }
-    
-    .humidity-result, .wind-result {
-        margin: 0.5rem;
-    }
-    
-    .humidity-result svg, .wind-result svg {
-        margin: 0.5rem;
-    }
-    
-    .desc-result {
-        font-size: 1rem;
-    }
-    
-    .desc-humidity-result, .desc-wind-result {
-        font-size: 1rem;
-    }
-    
-    .weather-result{
-        width: 8rem;
-    }
 }
 
 /* FAILURE */
@@ -281,4 +212,84 @@ span {
 .p-failure {
     width: 90%;
     margin: auto;
+}
+
+@media (max-width: 766px) {
+    h1 {
+        padding: 50px;
+        font-size: 2rem;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+    button {
+        width: 100%;
+    }
+    
+    #container {
+        margin-top: 100px;
+    }
+
+    #top-result {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #location-img {
+        margin-bottom: 0.3rem;
+    }
+    
+    .top-h2-result {
+        margin-left: 0;
+        margin-bottom: 0.7rem;
+        font-size: 1.5rem;
+    }
+    
+    #middle-result {
+        margin-top: 1rem;
+    }
+    
+    .weather-result {
+        width: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .degree-result {
+        font-size: 2rem;
+    }
+    
+    #bottom-result {
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    
+    .humidity-result, .wind-result {
+        margin: 0.5rem;
+    }
+    
+    .humidity-result svg, .wind-result svg {
+        margin: 0.5rem;
+    }
+    
+    .desc-result {
+        font-size: 1rem;
+    }
+    
+    .desc-humidity-result, .desc-wind-result {
+        font-size: 1rem;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0px 25px;
+        height: 1rem;
+    }
 }
